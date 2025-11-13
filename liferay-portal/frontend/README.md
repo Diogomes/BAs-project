@@ -14,7 +14,7 @@ Certifique-se de ter o **Node.js** e o **npm** (ou yarn) instalados em sua máqu
 
     Navegue até o diretório `liferay-portal/frontend/` e execute os comandos de inicialização:
 
-1. **Crie o projeto React com TypeScript no diretório atual (`.`):**
+1. **Crie o projeto React com TypeScript no diretório atual:**
    ```bash
    npx create-react-app . --template typescript
 
@@ -24,17 +24,18 @@ Certifique-se de ter o **Node.js** e o **npm** (ou yarn) instalados em sua máqu
 
 ### 2. Estrutura de Diretórios
 
-    Após a instalação, organize os arquivos dentro de src/ conforme esta estrutura:
+Após a instalação, organize os arquivos dentro de src/ conforme esta estrutura:
 
-src/
-├── components/         # Componentes reutilizáveis (e.g., ProductCard.tsx)
-├── pages/              # Componentes de layout e rotas principais (e.g., Home.tsx, ProductDetail.tsx)
-├── services/           # Configuração de serviços de API
-│   └── api.ts
-├── types/              # Definições de tipos (interfaces) TypeScript
-│   └── Product.ts
-├── App.tsx             # Componente principal e configuração de rotas
-└── index.tsx           # Ponto de entrada da aplicação
+
+    src/
+    ├── components/         # Componentes reutilizáveis (e.g., ProductCard.tsx)
+    ├── pages/              # Componentes de layout e rotas principais (e.g., Home.tsx, ProductDetail.tsx)
+    ├── services/           # Configuração de serviços de API
+    │   └── api.ts
+    ├── types/              # Definições de tipos (interfaces) TypeScript
+    │   └── Product.ts
+    ├── App.tsx             # Componente principal e configuração de rotas
+    └── index.tsx           # Ponto de entrada da aplicação
 
 ### 3. Configuração da API (Backend)
 
